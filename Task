@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <style>
+     /* Task for Internship */
+    /* header part */
+      *
+    {
+      text-decoration: none;;
+    }
+    .navbar
+    {
+      background: lightsteelblue;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .navdiv
+    {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo
+    {
+      font-size: 55px;
+      font-weight: 600;
+      color: black;
+      margin-right: 585px;
+    }
+    li
+    {
+      list-style: none;
+      display: inline-block;
+    }
+    li a
+    {
+      color: black;
+      font-size: 38px;
+      font-weight: bold;
+      margin-right: 155px;
+    }
+    .circular--portrait 
+    { 
+      position: relative; 
+      width: 100px; 
+      height: 100px; 
+      overflow: hidden; 
+      border-radius: 50%; 
+    } 
+    .circular--portrait img 
+    { width: 100%; 
+      height: auto; 
+    }
+    a
+    {
+      font-size: 45px;
+    }
+    /* search bar */
+      .option
+    {
+      text-align: center;
+      border-radius: 10px ;
+      background-color: bisque;
+      width: fit-content;
+      margin-left: 840px;
+      border: 2px solid black;
+    } 
+</style>
+</head>
+<body>
+<!-- Task for Internship -->
+     <nav class="navbar">
+    <div class="navdiv">
+    <a href="#"><i class="fa-solid fa-atom" style="font-size: 75px ;color: darkgreen;"></i></a>
+    <div class="logo"><a href="#"><h1>Jobered</h1></a></div>
+    <ul>
+      <li><a href="#" style="color: darkcyan;">Find page</a></li>
+      <li><a href="#">Reports</a></li>
+      <li><a href="#">My contacts</a></li>
+      <li><a href="#">Request Project</a></li>
+    </ul>
+    <a href="#"><i class="fa-regular fa-bell"></i></a>
+    <a href="#"><i class="fa-regular fa-bookmark"></i></a>
+    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+    <div class="circular--portrait"> <a href="#"><img src="Gallery/obito.jpg" /> </a></div>
+    </div>
+    </nav><br>
+    <nav class="option">
+    <div> 
+    <ul>
+    <button style="padding: 10px;"><li><a href="#">UI Designer</a></li></button>
+    <button style="padding: 10px;"><li><a href="#">UX Designer</a></li></button>
+    <button style="padding: 10px;"> <li><a href="#">Design</a></li></button>
+    <a href="#"><i class="fa-solid fa-magnifying-glass" style="font-size: 50px;margin-bottom:-25px;color: white;border: 1px solid black;background-color: black;padding: 30px;margin-top:-20px;margin-left: 50px;"></i></a>
+    </ul>
+    </div>
+    </nav><br><br>
+    <table>
+    <div style="display: flex;margin-left: 900px;">
+    <h1><i class="fa-brands fa-threads" style="margin-right: 100px;border: 1px solid black;padding: 15px;color: white;background-color: brown;"></i></h1>
+     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Omnis repellendus deleniti reprehenderit aut magnam itaque.
+    </h1>
+     <h1><i class="fa-regular fa-bookmark" style="margin-left: 100px;border: 1px solid black;padding: 15px;color: yellow;background-color: brown;"></i></h1>
+    </div>
+    <div style="margin-left: 900px;"><h1>project overview</h1></div>
+    <h2 style="margin-left: 900px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum illum impedit dolorem nobis facere, libero,<br> repudiandae quaerat doloribus eius molestias sunt ex, consequuntur ratione labore! Lorem, ipsum dolor sit <br> amet consectetur adipisicing elit. Numquam quos, minus labore optio porro alias accusantium ratione libero 
+    <br> iste nulla animi deleniti esse fugiat adipisci doloremque recusandae perferendis, impedit at nemo dolorum </h2><br>
+    <h2 style="margin-left: 900px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa expedita ex sint, debitis, modi optio 
+    <br> numquam repellendus vitae vel atque cumque praesentium asperiores dicta. Lorem ipsum dolor sit amet 
+    <br> consectetur adipisicing elit. Quia voluptates sed debitis iste porro quam eligendi modi officia rem libero</h2><br>
+    <h2 style="margin-left: 900px;">Lorem ipsum dolor sit amet.</h2><br>
+    <h1 style="margin-left: 900px;">skills and experince</h1>
+    <nav>
+    <div style="margin-left: 900px;"> 
+    <ul>
+      <button style="padding: 10px;"><li><a href="#">UI Designer</a></li></button>
+      <button style="padding: 10px;"><li><a href="#">Figma</a></li></button>
+      <button style="padding: 10px;"> <li><a href="#">Landing Page</a></li></button>
+    </ul>
+    </div><br>
+    </nav>
+    <div><h1 style="margin-left: 900px;">detail project</h1></div>
+    <div style="display: flex;margin-left: 900px;">
+    <h1 style="margin-right: 100px;border: 1px solid black;padding: 15px;border-radius: 10px;background-color: aquamarine;">500 of 48 reviews <br><br><i class="fa-solid fa-star" style="color: yellow;"></i><i class="fa-solid fa-star" style="color: yellow;"></i><i class="fa-solid fa-star" style="color: yellow;"></i><i class="fa-solid fa-star" style="color: yellow;"></i><i class="fa-solid fa-star" style="color: yellow;"></i></h1>
+    <h1 style="margin-right: 100px;border: 1px solid black;padding: 10px;border-radius: 10px;background-color: aquamarine;">28 success project <br><p><i class="fa-solid fa-circle-check"></i>verified</p></h1>
+    <h1 style="margin-right: 100px;border: 1px solid black;padding: 15px;border-radius: 10px;background-color: aquamarine;">560k+ total spend <br><p> <i class="fa-solid fa-circle-check"></i>verified</p></h1>
+    </div><br>
+     <div style="display: flex;margin-left: 900px;">
+     <div style="border: 2px solid black;font-size: 300%;border-radius: 10px;">
+    <input type="text" style="font-size: 100%;border: none;" placeholder="htttps://www.jobered.com/n...">
+    <i class="fa-regular fa-copy"></i>
+     </div>
+     <div style="margin-left: 50px;">
+    <button style="font-size: 300%;background-color: green;border-radius: 10px;cursor: pointer;">Submit a Proposal</button>
+     </div>
+    </div>
+    </table>
+</body>
+</html>
